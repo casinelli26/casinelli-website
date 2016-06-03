@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/cover.css') }}"/>
+  </head>
+
+  <body>
+<img src="{{ url_for('static', filename='img/investment.jpg') }}" height="900", width="1500">
+    <div class="site-wrapper">
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+          <div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand">Casinelli Inc.</h3>
+              <nav>
+                <ul class="nav masthead-nav">
+                  <li class="active"><a href="#">Login</a></li>
+                  <li><a href="#">What We Do</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                </ul>
+              </nav>
+          <div class="inner cover">
+              <h1>&nbsp</h1>
+              <h1>&nbsp</h1>
+            <h1 class="cover-heading">App Under Construction</h1>
+            <p class="lead">Welcome to Casinelli-Inc. we are a portfolio management site that uses data analytics and software for portfolio optimization.</p>
+          </div>
+          <div class="mastfoot">
+            <div class="inner">
+              <p>Casinelli Inc.</p>
+            </div>
+          </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+{% endblock %}
